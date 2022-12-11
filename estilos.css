@@ -1,0 +1,72 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+body{
+    background-image: url(/img/1516578954.jpg);
+}
+
+p{
+    font-size: larger;
+}
+
+/*MENU*/
+.menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #515759;
+}
+  
+.menu-li {
+    float: left;
+}
+  
+.menu-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.menu-li a:hover {
+    background-color: #69868C;
+}
+
+/*DATOS EN CARDS*/
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 80px 16px;
+  }
+
+.img-logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-items: auto;
+    float: left;
+}
+
+a{
+    color: black;
+    font-size: larger;
+    text-decoration: underline;
+    padding: 0px 20px;
+}
+
+
